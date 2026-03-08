@@ -1,0 +1,14 @@
+import { Button } from '@/components/ui/button';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-stone-50 text-stone-900">
+      <section className="pt-32 pb-20 px-4">
+        <Button variant="primary" size="xl">
+          Piyush Kumar Recipe Maker AI
+        </Button>
+      </section>
+    </div>
+    // <div>Hello, This is Piyush</div>
+  );
+}
